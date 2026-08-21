@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" role="img" aria-label="craft, build, ship, learn process">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#6366F1"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <path d="M70 55H830" stroke="#253047" stroke-width="2"/>
+  <path d="M70 55H830" stroke="url(#g)" stroke-width="2" stroke-dasharray="8 10">
+    <animate attributeName="stroke-dashoffset" from="0" to="-72" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g><circle cx="90" cy="55" r="18" fill="#0D1320" stroke="#6366F1"/><text x="90" y="59" fill="#F8FAFC" font-size="12" font-weight="700">01</text><text x="90" y="95" fill="#9CA3AF" font-size="12">CRAFT</text></g>
+    <g><circle cx="300" cy="55" r="18" fill="#0D1320" stroke="#8B5CF6"/><text x="300" y="59" fill="#F8FAFC" font-size="12" font-weight="700">02</text><text x="300" y="95" fill="#9CA3AF" font-size="12">BUILD</text></g>
+    <g><circle cx="600" cy="55" r="18" fill="#0D1320" stroke="#A78BFA"/><text x="600" y="59" fill="#F8FAFC" font-size="12" font-weight="700">03</text><text x="600" y="95" fill="#9CA3AF" font-size="12">SHIP</text></g>
+    <g><circle cx="810" cy="55" r="18" fill="#0D1320" stroke="#06B6D4"/><text x="810" y="59" fill="#F8FAFC" font-size="12" font-weight="700">04</text><text x="810" y="95" fill="#9CA3AF" font-size="12">LEARN</text></g>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">BilaNiumN1 — Developer, Builder, Problem Solver</title>
+  <desc id="desc">Animated aurora banner for a GitHub developer profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A0F"/>
+      <stop offset="0.55" stop-color="#070A0F"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#1F2937" stroke-width="1" opacity="0.42"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="390" rx="30" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="29" fill="url(#grid)" opacity="0.42"/>
+
+  <ellipse cx="230" cy="80" rx="270" ry="120" fill="#6366F1" opacity="0.18" filter="url(#blur)">
+    <animate attributeName="cx" values="230;300;230" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;125;80" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="940" cy="290" rx="290" ry="135" fill="#06B6D4" opacity="0.16" filter="url(#blur)">
+    <animate attributeName="cx" values="940;875;940" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="290;245;290" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <path d="M-30 300 C180 210 260 380 490 280 S820 100 1230 245"
+        fill="none" stroke="url(#aurora)" stroke-width="2" opacity="0.55" filter="url(#glow)">
+    <animate attributeName="d"
+      values="M-30 300 C180 210 260 380 490 280 S820 100 1230 245;
+              M-30 275 C180 340 270 180 500 300 S860 360 1230 175;
+              M-30 300 C180 210 260 380 490 280 S820 100 1230 245"
+      dur="12s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="1060" cy="74" r="3" fill="#06B6D4">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1120" cy="120" r="2" fill="#A78BFA">
+    <animate attributeName="opacity" values="1;0.2;1" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="84" y="138" fill="#A8B0C2" font-size="15" letter-spacing="4">HELLO, I'M</text>
+    <text x="80" y="204" fill="#F8FAFC" font-size="58" font-weight="800" letter-spacing="-2">BilaNiumN1</text>
+    <rect x="82" y="228" width="68" height="3" rx="2" fill="url(#aurora)">
+      <animate attributeName="width" values="40;120;68" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="82" y="268" fill="#A8B0C2" font-size="20">Developer · Builder · Problem Solver</text>
+    <text x="82" y="304" fill="#A8B0C2" font-size="15">Turning ideas into useful software — one iteration at a time.</text>
+    <text x="1114" y="336" fill="#A8B0C2" font-size="13" text-anchor="end">LEMBANG · ID</text>
+  </g>
+</svg>
