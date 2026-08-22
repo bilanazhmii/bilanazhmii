@@ -31,7 +31,7 @@
 <sub>Independent developer · Lembang, Indonesia</sub>
 
 <!-- AUTO-UPDATED:START -->
-<sub>Profile data refreshed automatically.</sub>
+<sub>Profile data refreshed automatically · 2026-08-22 02:28 UTC</sub>
 <!-- AUTO-UPDATED:END -->
 
 </div>
@@ -115,27 +115,23 @@ Business management platform for sales, stock, transactions, reporting, and PWA 
 
 ### SchoolDMS
 
-Document management system for school workflows.
+No description yet.
 
-`TypeScript` · `Web` · `Backend`
+`TypeScript`
 
-<br>
-
-<a href="https://github.com/bilanazhmii/SchoolDMS"><img src="./assets/btn-view-repo.svg" alt="View repository" height="32"></a>
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/SchoolDMS) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://school-dms.vercel.app)
 
 </td>
 
 <td width="50%" valign="top">
 
-### Our-bisnis
+### bilanazhmii
 
-Business & coffee management platform.
+No description yet.
 
-`JavaScript` · `Supabase` · `PWA`
+`Python`
 
-<br>
-
-<a href="https://github.com/bilanazhmii/Our-bisnis"><img src="./assets/btn-view-repo.svg" alt="View repository" height="32"></a>
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/bilanazhmii)
 
 </td>
 </tr>
@@ -143,29 +139,39 @@ Business & coffee management platform.
 <tr>
 <td width="50%" valign="top">
 
-### BotIndo
+### Our-bisnis
 
-JavaScript automation / bot project.
+No description yet.
 
-`JavaScript` · `Node.js`
+`JavaScript`
 
-<br>
-
-<a href="https://github.com/bilanazhmii/BotIndo"><img src="./assets/btn-view-repo.svg" alt="View repository" height="32"></a>
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/Our-bisnis) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://our-bisnis.vercel.app)
 
 </td>
 
 <td width="50%" valign="top">
 
+### BotIndo
+
+No description yet.
+
+`JavaScript`
+
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/BotIndo)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
 ### puzzle-mobile
 
-Mobile-focused project.
+e
 
-`Mobile`
+`Open Source`
 
-<br>
-
-<a href="https://github.com/bilanazhmii/puzzle-mobile"><img src="./assets/btn-view-repo.svg" alt="View repository" height="32"></a>
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/puzzle-mobile)
 
 </td>
 </tr>
