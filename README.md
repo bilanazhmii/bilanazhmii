@@ -31,7 +31,7 @@
 <sub>Independent developer · Lembang, Indonesia</sub>
 
 <!-- AUTO-UPDATED:START -->
-<sub>Profile data refreshed automatically · 2026-08-23 02:37 UTC</sub>
+<sub>Profile data refreshed automatically · 2026-08-24 02:37 UTC</sub>
 <!-- AUTO-UPDATED:END -->
 
 </div>
@@ -125,13 +125,13 @@ No description yet.
 
 <td width="50%" valign="top">
 
-### SchoolDMS
+### Our-bisnis
 
 No description yet.
 
-`TypeScript`
+`JavaScript`
 
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/SchoolDMS) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://school-dms.vercel.app)
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/Our-bisnis) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://our-bisnis.vercel.app)
 
 </td>
 </tr>
@@ -151,13 +151,13 @@ No description yet.
 
 <td width="50%" valign="top">
 
-### Our-bisnis
+### SchoolDMS
 
 No description yet.
 
-`JavaScript`
+`TypeScript`
 
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/Our-bisnis) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://our-bisnis.vercel.app)
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/SchoolDMS) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://school-dms.vercel.app)
 
 </td>
 </tr>
