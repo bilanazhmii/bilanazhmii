@@ -31,7 +31,7 @@
 <sub>Independent developer · Lembang, Indonesia</sub>
 
 <!-- AUTO-UPDATED:START -->
-<sub>Profile data refreshed automatically · 2026-08-24 02:37 UTC</sub>
+<sub>Profile data refreshed automatically · 2026-08-25 02:31 UTC</sub>
 <!-- AUTO-UPDATED:END -->
 
 </div>
@@ -113,6 +113,18 @@ Business management platform for sales, stock, transactions, reporting, and PWA 
 <tr>
 <td width="50%" valign="top">
 
+### bilanazhmii
+
+No description yet.
+
+`Python`
+
+[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/bilanazhmii)
+
+</td>
+
+<td width="50%" valign="top">
+
 ### MyPortofolio
 
 No description yet.
@@ -122,7 +134,9 @@ No description yet.
 [<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/MyPortofolio) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://myportofolio-bila-la.vercel.app)
 
 </td>
+</tr>
 
+<tr>
 <td width="50%" valign="top">
 
 ### Our-bisnis
@@ -132,20 +146,6 @@ No description yet.
 `JavaScript`
 
 [<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/Our-bisnis) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://our-bisnis.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### bilanazhmii
-
-No description yet.
-
-`Python`
-
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/bilanazhmii)
 
 </td>
 
