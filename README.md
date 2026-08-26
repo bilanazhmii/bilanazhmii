@@ -3,268 +3,140 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-dark.svg" alt="BilaNiumN1 — Developer, Builder, Problem Solver" width="100%">
+  <img src="./assets/hero-dark.svg" alt="BilaNiumN1 — independent developer building useful digital products" width="100%">
 </picture>
 
 <br>
 
-<a href="#about"><img src="./assets/btn-about.svg" alt="About" height="34"></a>
-&nbsp;
-<a href="#featured-work"><img src="./assets/btn-projects.svg" alt="Projects" height="34"></a>
-&nbsp;
-<a href="#repositories"><img src="./assets/btn-repositories.svg" alt="Repositories" height="34"></a>
-&nbsp;
-<a href="#stack"><img src="./assets/btn-stack.svg" alt="Stack" height="34"></a>
-&nbsp;
-<a href="#connect"><img src="./assets/btn-connect.svg" alt="Connect" height="34"></a>
+<p align="center"><a href="https://myportofolio-bila-la.vercel.app"><img src="./assets/cta-portfolio.svg" alt="Explore portfolio" height="36"></a>&nbsp;&nbsp;<a href="https://www.instagram.com/tell.hack/"><img src="./assets/cta-instagram.svg" alt="Open Instagram" height="36"></a></p>
 
 <br><br>
 
-<a href="https://github.com/bilanazhmii"><img src="./assets/social-github.svg" alt="GitHub" height="32"></a>
-&nbsp;
-<a href="https://www.instagram.com/tell.hack/"><img src="./assets/social-instagram.svg" alt="Instagram" height="32"></a>
-&nbsp;
-<a href="https://orcid.org/0009-0004-5857-3394"><img src="./assets/social-orcid.svg" alt="ORCID" height="32"></a>
-
-<br><br>
-
-<sub>Independent developer · Lembang, Indonesia</sub>
-
-<!-- AUTO-UPDATED:START -->
-<sub>Profile data refreshed automatically · 2026-08-25 02:31 UTC</sub>
-<!-- AUTO-UPDATED:END -->
+<sub>Independent developer in Lembang, Indonesia &nbsp;·&nbsp; Building practical products for real workflows</sub>
 
 </div>
-
-<br>
-
-<p align="center">
-  <img src="./assets/divider.svg" alt="" width="90%">
-</p>
 
 ## About
 
-I build **useful software with a clean, practical experience**.
+I design and build **practical web products**—turning everyday problems into clear interfaces, reliable systems, and maintainable code. My work spans document workflows, business operations, automation, and immersive web experiences.
 
-My work sits around web applications, automation, document workflows, and business tools. I learn by shipping, refining, and turning small ideas into working products.
+I care about the details between an idea and a product people can actually use: thoughtful UX, sensible architecture, resilient data flows, and continuous refinement.
 
 <p align="center">
-  <img src="./assets/flow.svg" alt="craft build ship learn" width="78%">
+  <img src="./assets/flow.svg" alt="Discover, design, build, validate, ship" width="88%">
 </p>
 
----
-
-## Featured Work
-
-<table cellspacing="24" cellpadding="0">
-<tr>
-<td width="50%" valign="top">
+## Selected Work
 
 <a href="https://github.com/bilanazhmii/SchoolDMS">
-  <img src="./assets/schooldms.svg" alt="SchoolDMS project card" width="100%">
+  <img src="./assets/schooldms.svg" alt="SchoolDMS — connected document operations" width="100%">
 </a>
-
-<br><br>
-
-**SchoolDMS**  
-Document workflow system with web, backend, and sync-client components.
-
-<br>
-
-<sub>TypeScript · Web · Backend</sub>
-
-<br><br>
-
-<a href="https://school-dms.vercel.app/"><img src="./assets/btn-live-demo.svg" alt="Live Demo" height="34"></a>
-&nbsp;
-<a href="https://github.com/bilanazhmii/SchoolDMS"><img src="./assets/btn-source.svg" alt="Source" height="34"></a>
-
-</td>
-
-<td width="50%" valign="top">
-
-<a href="https://github.com/bilanazhmii/Our-bisnis">
-  <img src="./assets/our-bisnis.svg" alt="Our-bisnis project card" width="100%">
-</a>
-
-<br><br>
-
-**Our-bisnis**  
-Business management platform for sales, stock, transactions, reporting, and PWA usage.
-
-<br>
-
-<sub>JavaScript · Supabase · PWA</sub>
-
-<br><br>
-
-<a href="https://github.com/bilanazhmii/Our-bisnis"><img src="./assets/btn-source.svg" alt="Source" height="34"></a>
-
-</td>
-</tr>
-</table>
-
----
-
-## Repositories
-
-<!-- AUTO-REPOS:START -->
-<table cellspacing="20">
-<tr>
-<td width="50%" valign="top">
-
-### bilanazhmii
-
-No description yet.
-
-`Python`
-
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/bilanazhmii)
-
-</td>
-
-<td width="50%" valign="top">
-
-### MyPortofolio
-
-No description yet.
-
-`TypeScript`
-
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/MyPortofolio) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://myportofolio-bila-la.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### Our-bisnis
-
-No description yet.
-
-`JavaScript`
-
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/Our-bisnis) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://our-bisnis.vercel.app)
-
-</td>
-
-<td width="50%" valign="top">
 
 ### SchoolDMS
 
-No description yet.
+A connected document-management platform for school workflows, combining a Next.js interface, NestJS API, Prisma data layer, cloud storage, and sync tooling.
 
-`TypeScript`
+`TypeScript` `Next.js` `NestJS` `Prisma` `Supabase`
 
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/SchoolDMS) &nbsp; [<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">](https://school-dms.vercel.app)
+[Live product](https://school-dms.vercel.app/) · [Source code](https://github.com/bilanazhmii/SchoolDMS)
 
-</td>
-</tr>
+<br>
 
+<a href="https://github.com/bilanazhmii/Our-bisnis">
+  <img src="./assets/our-bisnis.svg" alt="Our-bisnis — business operations in one place" width="100%">
+</a>
+
+### Our-bisnis
+
+A PWA for day-to-day business operations: sales, inventory, cash flow, receivables, reports, receipts, roles, and secure cross-device sync.
+
+`JavaScript` `Supabase` `PWA` `RLS` `Offline-first`
+
+[Live product](https://our-bisnis.vercel.app/) · [Source code](https://github.com/bilanazhmii/Our-bisnis)
+
+## More Work
+
+<!-- AUTO-REPOS:START -->
+| Project | What it is | Built with |
+| :-- | :-- | :-- |
+| [**MyPortofolio**](https://github.com/bilanazhmii/MyPortofolio) ↗ | An immersive 3D portfolio with motion, spatial interaction, and a cinematic WebGL experience. [Live ↗](https://myportofolio-bila-la.vercel.app) | `TypeScript` |
+| [**BotIndo**](https://github.com/bilanazhmii/BotIndo) ↗ | A Discord and Minecraft operations bot with RCON, server status, commands, AI utilities, and a web dashboard. | `JavaScript` |
+
+<div align="right"><a href="https://github.com/bilanazhmii?tab=repositories">View all repositories →</a></div>
+<!-- AUTO-REPOS:END -->
+
+## How I Build
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### BotIndo
+**01 / Product clarity**
 
-No description yet.
-
-`JavaScript`
-
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/BotIndo)
+Start with the real workflow, then remove friction until the experience feels obvious.
 
 </td>
+<td width="33%" valign="top">
 
-<td width="50%" valign="top">
+**02 / System thinking**
 
-### puzzle-mobile
+Connect interface, API, data, security, and deployment as one coherent product.
 
-e
+</td>
+<td width="33%" valign="top">
 
-`Open Source`
+**03 / Iterative craft**
 
-[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">](https://github.com/bilanazhmii/puzzle-mobile)
+Ship, observe, refine, and keep the implementation as intentional as the design.
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/bilanazhmii?tab=repositories"><img src="./assets/btn-all-repositories.svg" alt="All repositories" height="36"></a>
-</p>
-<!-- AUTO-REPOS:END -->
-
-<p align="center">
-  <a href="https://github.com/bilanazhmii?tab=repositories"><img src="./assets/btn-all-repositories.svg" alt="All repositories" height="36"></a>
-</p>
-
----
-
-## Stack
+## Core Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,supabase,postgres,docker,git,github,vercel&perline=10&theme=dark" alt="Technology stack" width="82%">
+<img src="./assets/stack.svg" alt="TypeScript, JavaScript, React, Next.js, Node.js, NestJS, Supabase, PostgreSQL, Three.js, Docker, Git, GitHub, and Vercel" width="94%">
 
 <br><br>
 
-<sub>Focused stack · chosen for building and shipping real projects</sub>
+<sub>Product engineering &nbsp;·&nbsp; Frontend systems &nbsp;·&nbsp; Backend APIs &nbsp;·&nbsp; Data workflows &nbsp;·&nbsp; Deployment</sub>
 
 </div>
 
----
-
-## Activity
+## Development Activity
 
 <div align="center">
 
 <a href="https://github.com/bilanazhmii">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bilanazhmii&bg_color=00000000&color=9CA3AF&line=8B5CF6&point=06B6D4&area=true&hide_border=true&custom_title=Contribution%20Flow" alt="GitHub contribution flow" width="94%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bilanazhmii&bg_color=00000000&color=94A3B8&line=6366F1&point=22D3EE&area=true&area_color=6366F1&hide_border=true&custom_title=Contribution%20Flow" alt="BilaNiumN1 contribution activity" width="96%">
 </a>
 
 </div>
 
-<p align="center">
-  <sub>Live contribution activity — no duplicated stats cards, no repeated numbers.</sub>
-</p>
+## Current Direction
 
----
-
-## Current Focus
-
-<table cellspacing="0" cellpadding="0">
-<tr>
-<td width="25%" align="center"><strong>BUILD</strong><br><sub>Useful web tools</sub></td>
-<td width="25%" align="center"><strong>LEARN</strong><br><sub>Architecture & UX</sub></td>
-<td width="25%" align="center"><strong>SHIP</strong><br><sub>Real-world projects</sub></td>
-<td width="25%" align="center"><strong>ITERATE</strong><br><sub>Small, steady improvements</sub></td>
-</tr>
-</table>
-
----
+- Building web products with stronger architecture, accessibility, and product polish.
+- Exploring immersive interfaces through React, Three.js, and motion systems.
+- Improving automation and secure cloud workflows for real operational needs.
 
 ## Connect
 
 <div align="center">
 
-<a href="https://github.com/bilanazhmii"><img src="./assets/btn-github.svg" alt="GitHub" height="38"></a>
-&nbsp;
-<a href="https://www.instagram.com/tell.hack/"><img src="./assets/btn-instagram.svg" alt="Instagram" height="38"></a>
-&nbsp;
-<a href="https://orcid.org/0009-0004-5857-3394"><img src="./assets/btn-orcid.svg" alt="ORCID" height="38"></a>
-
-<br><br>
-
-<sub>Open to useful collaborations, interesting ideas, and thoughtful software.</sub>
-
-</div>
+If you are building something useful, have an interesting technical problem, or want to exchange ideas, feel free to reach out.
 
 <br>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
-    <img src="./assets/footer-dark.svg" alt="" width="100%">
-  </picture>
-</p>
+[**Portfolio**](https://myportofolio-bila-la.vercel.app) &nbsp;·&nbsp; [**GitHub**](https://github.com/bilanazhmii) &nbsp;·&nbsp; [**Instagram**](https://www.instagram.com/tell.hack/) &nbsp;·&nbsp; [**ORCID**](https://orcid.org/0009-0004-5857-3394)
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
+  <img src="./assets/footer-dark.svg" alt="Designed with intention. Built through iteration." width="100%">
+</picture>
+
+</div>
