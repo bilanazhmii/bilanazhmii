@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 190" role="img" aria-label="Core technology stack">
+  <defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#6366F1"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <rect width="1080" height="190" rx="22" fill="#0B0F19"/><rect x="1" y="1" width="1078" height="188" rx="21" fill="none" stroke="#334155"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="34" y="40" fill="#64748B" font-size="11" font-weight="700" letter-spacing="2.2">CORE TECHNOLOGY / SELECTED FOR REAL PRODUCTS</text>
+    <g transform="translate(34 62)">
+      <g>
+        <rect width="128" height="42" rx="10" fill="#111827" stroke="#334155"/><rect x="14" y="12" width="18" height="18" rx="4" fill="#3178C6"/><text x="23" y="25" fill="#fff" font-size="9" font-weight="800" text-anchor="middle">TS</text><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">TypeScript</text>
+      </g>
+      <g transform="translate(142)">
+        <rect width="162" height="42" rx="10" fill="#111827" stroke="#334155"/><circle cx="24" cy="21" r="9" fill="none" stroke="#61DAFB"/><text x="43" y="26" fill="#E2E8F0" font-size="12" font-weight="600">React / Next.js</text>
+      </g>
+      <g transform="translate(318)">
+        <rect width="172" height="42" rx="10" fill="#111827" stroke="#334155"/><path d="m15 12 9-5 9 5v10l-9 5-9-5z" fill="#34D399" opacity=".8"/><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">Node / NestJS</text>
+      </g>
+      <g transform="translate(504)">
+        <rect width="226" height="42" rx="10" fill="#111827" stroke="#334155"/><path d="m17 29 7-17 7 17-7-4z" fill="#3ECF8E"/><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">Supabase / PostgreSQL</text>
+      </g>
+      <g transform="translate(744)">
+        <rect width="128" height="42" rx="10" fill="#111827" stroke="#334155"/><circle cx="24" cy="21" r="9" fill="none" stroke="#A78BFA"/><path d="m18 17 12 8M30 17l-12 8" stroke="#A78BFA"/><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">Three.js</text>
+      </g>
+      <g transform="translate(886)">
+        <rect width="126" height="42" rx="10" fill="#111827" stroke="#334155"/><path d="M15 18h18v9H15zM19 13h5v5M26 13h5v5" fill="none" stroke="#2496ED" stroke-width="1.5"/><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">Docker</text>
+      </g>
+    </g>
+    <g transform="translate(312 120)">
+      <rect width="128" height="42" rx="10" fill="#111827" stroke="#334155"/><circle cx="24" cy="21" r="9" fill="none" stroke="#F97316"/><path d="M18 23c4-7 8 4 13-4" fill="none" stroke="#F97316" stroke-width="1.5"/><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">Git</text>
+      <g transform="translate(142)"><rect width="142" height="42" rx="10" fill="#111827" stroke="#334155"/><circle cx="24" cy="21" r="9" fill="#E2E8F0"/><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">GitHub</text></g>
+      <g transform="translate(298)"><rect width="142" height="42" rx="10" fill="#111827" stroke="#334155"/><path d="m15 28 9-17 9 17z" fill="#E2E8F0"/><text x="44" y="26" fill="#E2E8F0" font-size="12" font-weight="600">Vercel</text></g>
+    </g>
+    <rect x="34" y="171" width="1012" height="2" rx="1" fill="url(#a)" opacity=".45"/>
+  </g>
+</svg>

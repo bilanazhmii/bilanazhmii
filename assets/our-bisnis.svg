@@ -1,31 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Our-bisnis project card">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="title desc">
+  <title id="title">Our-bisnis</title><desc id="desc">Business operations, inventory, cash flow, and reporting in one PWA.</desc>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#06B6D4"/>
-    </linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="24"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090D18"/><stop offset="1" stop-color="#11152A"/></linearGradient>
+    <linearGradient id="a" x1="0" x2="1"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94A3B8" stroke-opacity=".06"/></pattern>
   </defs>
-  <rect width="760" height="250" rx="24" fill="#0B0F17"/>
-  <rect x="1" y="1" width="758" height="248" rx="23" fill="none" stroke="#263042"/>
-  <circle cx="660" cy="74" r="90" fill="#8B5CF6" opacity="0.13" filter="url(#soft)">
-    <animate attributeName="cx" values="640;690;640" dur="8s" repeatCount="indefinite"/>
-  </circle>
-  <path d="M-20 205 C180 120 290 260 470 180 S650 120 790 155" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.75">
-    <animate attributeName="d"
-      values="M-20 205 C180 120 290 260 470 180 S650 120 790 155;
-              M-20 170 C180 240 300 100 480 185 S650 220 790 125;
-              M-20 205 C180 120 290 260 470 180 S650 120 790 155"
-      dur="10s" repeatCount="indefinite"/>
-  </path>
+  <rect width="760" height="330" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="758" height="328" rx="23" fill="none" stroke="#334155"/><rect x="18" y="18" width="724" height="294" rx="15" fill="url(#grid)"/>
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="42" y="62" fill="#8F9BB0" font-size="13" letter-spacing="3">FEATURED PROJECT</text>
-    <text x="42" y="116" fill="#F8FAFC" font-size="34" font-weight="800">Our-bisnis</text>
-    <text x="42" y="148" fill="#A8B0C2" font-size="17">Business management platform</text>
-    <text x="660" y="154" fill="#06B6D4" font-size="62" font-weight="700" text-anchor="middle">✦</text>
-    <rect x="42" y="183" width="106" height="34" rx="17" fill="url(#g)" opacity="0.93">
-      <animate attributeName="opacity" values="0.65;1;0.65" dur="4s" repeatCount="indefinite"/>
-    </rect>
-    <text x="95" y="205" fill="#FFFFFF" font-size="13" font-weight="700" text-anchor="middle">EXPLORE →</text>
+    <text x="40" y="55" fill="#A78BFA" font-size="12" font-weight="700" letter-spacing="2.4">02 / BUSINESS SYSTEM</text>
+    <text x="40" y="104" fill="#F8FAFC" font-size="35" font-weight="800">Our-bisnis</text>
+    <text x="40" y="136" fill="#94A3B8" font-size="15">Sell · track · understand · grow</text>
+    <g transform="translate(40 170)">
+      <rect width="270" height="108" rx="13" fill="#111827" stroke="#334155"/>
+      <text x="18" y="27" fill="#64748B" font-size="9" letter-spacing="1.4">CASH FLOW</text>
+      <text x="18" y="54" fill="#F8FAFC" font-size="20" font-weight="700">+ 24.8%</text>
+      <path d="M18 89 55 76l34 5 36-27 38 12 38-31 48 9" fill="none" stroke="url(#a)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M18 89 55 76l34 5 36-27 38 12 38-31 48 9v48H18z" fill="url(#a)" opacity=".08"/>
+    </g>
+    <g transform="translate(430 68)">
+      <rect width="265" height="210" rx="16" fill="#101827" stroke="#334155"/>
+      <text x="20" y="31" fill="#64748B" font-size="10" letter-spacing="1.5">OPERATIONS / LIVE</text>
+      <g font-size="12" fill="#CBD5E1"><text x="20" y="70">Sales</text><text x="20" y="104">Inventory</text><text x="20" y="138">Receivables</text><text x="20" y="172">Reports</text></g>
+      <g><rect x="154" y="56" width="86" height="19" rx="9.5" fill="#22D3EE" opacity=".16"/><rect x="154" y="90" width="86" height="19" rx="9.5" fill="#A78BFA" opacity=".16"/><rect x="154" y="124" width="86" height="19" rx="9.5" fill="#22D3EE" opacity=".16"/><rect x="154" y="158" width="86" height="19" rx="9.5" fill="#A78BFA" opacity=".16"/></g>
+      <g fill="#CBD5E1" font-size="9" text-anchor="middle"><text x="197" y="69">SYNCED</text><text x="197" y="103">TRACKED</text><text x="197" y="137">SECURE</text><text x="197" y="171">READY</text></g>
+    </g>
+    <circle cx="700" cy="45" r="3" fill="#A78BFA"><animate attributeName="opacity" values=".25;1;.25" dur="3.4s" repeatCount="indefinite"/></circle>
+    <text x="704" y="299" fill="#64748B" font-size="11" text-anchor="end" letter-spacing="1.7">JAVASCRIPT / SUPABASE / PWA</text>
   </g>
 </svg>
