@@ -2,10 +2,8 @@
 from __future__ import annotations
 
 import json
-import os
 import re
 import urllib.request
-from datetime import datetime, timezone
 
 OWNER = "bilanazhmii"
 README = "README.md"
@@ -13,86 +11,91 @@ API = f"https://api.github.com/users/{OWNER}/repos?per_page=100&sort=updated&dir
 
 MANAGED_START = "<!-- AUTO-REPOS:START -->"
 MANAGED_END = "<!-- AUTO-REPOS:END -->"
-UPDATED_START = "<!-- AUTO-UPDATED:START -->"
-UPDATED_END = "<!-- AUTO-UPDATED:END -->"
 
-# These are kept as curated featured projects rather than being reordered
-# automatically, so the visual hierarchy remains intentional.
-FEATURED = {"SchoolDMS", "Our-bisnis"}
+# Featured projects already have full editorial cards above the generated list.
+EXCLUDED = {OWNER.lower(), "SchoolDMS", "Our-bisnis", "puzzle-mobile"}
 
-req = urllib.request.Request(
-    API,
-    headers={
-        "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2026-03-10",
-        "User-Agent": f"{OWNER}-profile-updater",
-    },
-)
+# GitHub descriptions are intentionally short; these fallbacks keep the profile
+# useful while repository metadata is still being polished.
+CURATED = {
+    "MyPortofolio": (
+        "An immersive 3D portfolio with motion, spatial interaction, and a "
+        "cinematic WebGL experience."
+    ),
+    "BotIndo": (
+        "A Discord and Minecraft operations bot with RCON, server status, "
+        "commands, AI utilities, and a web dashboard."
+    ),
+}
 
-with urllib.request.urlopen(req, timeout=30) as response:
-    repos = json.load(response)
+
+def fetch_repositories() -> list[dict]:
+    request = urllib.request.Request(
+        API,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "User-Agent": f"{OWNER}-profile-updater",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.load(response)
+
+
+def clean_description(repo: dict) -> str:
+    name = repo["name"]
+    raw = (repo.get("description") or "").strip().replace("\n", " ")
+    # Ignore placeholder metadata and use reviewed editorial copy instead.
+    if len(raw) < 12:
+        raw = CURATED.get(name, "A software project from my public workspace.")
+    raw = raw.replace("|", "\\|")
+    return raw[:157].rstrip() + "..." if len(raw) > 160 else raw
+
+
+def language(repo: dict) -> str:
+    return repo.get("language") or "Open Source"
+
+
+def row(repo: dict) -> str:
+    name = repo["name"]
+    links = f"[**{name}**]({repo['html_url']}) ↗"
+    homepage = (repo.get("homepage") or "").strip()
+    description = clean_description(repo)
+    if homepage.startswith(("https://", "http://")):
+        description += f" [Live ↗]({homepage})"
+    return f"| {links} | {description} | `{language(repo)}` |"
+
 
 repos = [
-    r for r in repos
-    if not r.get("fork", False) and not r.get("archived", False)
+    repo
+    for repo in fetch_repositories()
+    if not repo.get("fork")
+    and not repo.get("archived")
+    and repo["name"] not in EXCLUDED
 ]
 
-def lang(repo: dict) -> str:
-    language = repo.get("language")
-    return language or "Open Source"
-
-def card(repo: dict) -> str:
-    name = repo["name"]
-    description = (repo.get("description") or "No description yet.").strip()
-    description = description.replace("\n", " ")
-    if len(description) > 120:
-        description = description[:117].rstrip() + "..."
-    homepage = repo.get("homepage") or ""
-    repo_url = repo["html_url"]
-    links = [f'[<img src="./assets/btn-view-repo.svg" alt="View repository" height="32">]({repo_url})']
-    if homepage.startswith("http"):
-        links.append(f'[<img src="./assets/btn-live-demo.svg" alt="Live demo" height="32">]({homepage})')
-    return (
-        f'<td width="50%" valign="top">\n\n'
-        f'### {name}\n\n'
-        f'{description}\n\n'
-        f'`{lang(repo)}`\n\n'
-        + " &nbsp; ".join(links)
-        + "\n\n</td>"
-    )
-
-# Keep the four-column/2x2 layout balanced by selecting the most recently
-# updated repositories. New repositories automatically appear here.
-rows = []
-for i in range(0, len(repos[:8]), 2):
-    pair = repos[i:i+2]
-    row = "<tr>\n" + "\n\n".join(card(r) for r in pair) + "\n</tr>"
-    rows.append(row)
+table = [
+    "| Project | What it is | Built with |",
+    "| :-- | :-- | :-- |",
+    *(row(repo) for repo in repos[:5]),
+]
 
 repo_block = (
     f"{MANAGED_START}\n"
-    "<table cellspacing=\"20\">\n"
-    + "\n\n".join(rows)
-    + "\n</table>\n\n"
-    '<p align="center">\n'
-    '  <a href="https://github.com/bilanazhmii?tab=repositories"><img src="./assets/btn-all-repositories.svg" alt="All repositories" height="36"></a>\n'
-    '</p>\n'
-    f"{MANAGED_END}"
+    + "\n".join(table)
+    + "\n\n"
+    + '<div align="right"><a href="https://github.com/'
+    + f'{OWNER}?tab=repositories">View all repositories →</a></div>\n'
+    + f"{MANAGED_END}"
 )
 
-utc_now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-updated_block = (
-    f"{UPDATED_START}\n"
-    f'<sub>Profile data refreshed automatically · {utc_now}</sub>\n'
-    f"{UPDATED_END}"
-)
-
-readme = open(README, "r", encoding="utf-8").read()
+with open(README, "r", encoding="utf-8") as handle:
+    readme = handle.read()
 
 if MANAGED_START not in readme or MANAGED_END not in readme:
     raise SystemExit("Missing AUTO-REPOS markers in README.md")
 
-readme = re.sub(
+updated = re.sub(
     re.escape(MANAGED_START) + r".*?" + re.escape(MANAGED_END),
     repo_block,
     readme,
@@ -100,21 +103,5 @@ readme = re.sub(
     flags=re.S,
 )
 
-# Add a tiny status line just below the top social links.
-if UPDATED_START in readme:
-    readme = re.sub(
-        re.escape(UPDATED_START) + r".*?" + re.escape(UPDATED_END),
-        updated_block,
-        readme,
-        count=1,
-        flags=re.S,
-    )
-else:
-    marker = '<sub>Independent developer · Lembang, Indonesia</sub>'
-    readme = readme.replace(
-        marker,
-        marker + "\n\n" + updated_block,
-        1,
-    )
-
-open(README, "w", encoding="utf-8").write(readme)
+with open(README, "w", encoding="utf-8") as handle:
+    handle.write(updated)
