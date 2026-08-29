@@ -129,7 +129,7 @@ If you are building something useful, have an interesting technical problem, or 
 
 <br>
 
-[**Portfolio**](https://myportofolio-bila-la.vercel.app) &nbsp;·&nbsp; [**GitHub**](https://github.com/bilanazhmii) &nbsp;·&nbsp; [**Instagram**](https://www.instagram.com/tell.hack/) &nbsp;·&nbsp; [**ORCID**](https://orcid.org/0009-0004-5857-3394)
+[**Portfolio**](https://the-portofolio.vercel.app/) &nbsp;·&nbsp; [**GitHub**](https://github.com/bilanazhmii) &nbsp;·&nbsp; [**Instagram**](https://www.instagram.com/tell.hack/) &nbsp;·&nbsp; [**ORCID**](https://orcid.org/0009-0004-5857-3394)
 
 <br><br>
 
