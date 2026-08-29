@@ -8,7 +8,7 @@
 
 <br>
 
-<p align="center"><a href="https://myportofolio-bila-la.vercel.app"><img src="./assets/cta-portfolio.svg" alt="Explore portfolio" height="36"></a>&nbsp;&nbsp;<a href="https://www.instagram.com/tell.hack/"><img src="./assets/cta-instagram.svg" alt="Open Instagram" height="36"></a></p>
+<p align="center"><a href="https://the-portofolio.vercel.app/"><img src="./assets/cta-portfolio.svg" alt="Explore portfolio" height="36"></a>&nbsp;&nbsp;<a href="https://www.instagram.com/tell.hack/"><img src="./assets/cta-instagram.svg" alt="Open Instagram" height="36"></a></p>
 
 <br><br>
 
