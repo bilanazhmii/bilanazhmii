@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import html
 import json
 import re
 import urllib.request
@@ -18,6 +19,10 @@ EXCLUDED = {OWNER.lower(), "SchoolDMS", "Our-bisnis", "puzzle-mobile"}
 # GitHub descriptions are intentionally short; these fallbacks keep the profile
 # useful while repository metadata is still being polished.
 CURATED = {
+    "Portofolio": (
+        "The current portfolio experience for selected work, capabilities, "
+        "and an intentionally crafted developer identity."
+    ),
     "MyPortofolio": (
         "An immersive 3D portfolio with motion, spatial interaction, and a "
         "cinematic WebGL experience."
@@ -56,14 +61,31 @@ def language(repo: dict) -> str:
     return repo.get("language") or "Open Source"
 
 
-def row(repo: dict) -> str:
-    name = repo["name"]
-    links = f"[**{name}**]({repo['html_url']}) ↗"
+def card(repo: dict) -> str:
+    name = html.escape(repo["name"])
+    repo_url = html.escape(repo["html_url"], quote=True)
+    description = html.escape(clean_description(repo))
+    repo_language = html.escape(language(repo))
     homepage = (repo.get("homepage") or "").strip()
-    description = clean_description(repo)
+    actions = (
+        f'<a href="{repo_url}"><img src="./assets/btn-view-repo.svg" '
+        f'alt="View {name} repository" height="32"></a>'
+    )
     if homepage.startswith(("https://", "http://")):
-        description += f" [Live ↗]({homepage})"
-    return f"| {links} | {description} | `{language(repo)}` |"
+        safe_homepage = html.escape(homepage, quote=True)
+        actions += (
+            f'&nbsp;<a href="{safe_homepage}"><img src="./assets/btn-live-demo.svg" '
+            f'alt="Open {name} live site" height="32"></a>'
+        )
+
+    return (
+        '<td width="50%" valign="top">\n\n'
+        f'<strong>{name}</strong><br>\n'
+        f'<sub>{description}</sub>\n\n'
+        f'<sub>{repo_language}</sub>\n\n'
+        f'<br>{actions}\n\n'
+        '</td>'
+    )
 
 
 repos = [
@@ -74,18 +96,26 @@ repos = [
     and repo["name"] not in EXCLUDED
 ]
 
-table = [
-    "| Project | What it is | Built with |",
-    "| :-- | :-- | :-- |",
-    *(row(repo) for repo in repos[:5]),
+cards = [card(repo) for repo in repos[:4]]
+if len(cards) % 2:
+    cards.append('<td width="50%"></td>')
+
+rows = [
+    '<tr>\n' + cards[index] + '\n' + cards[index + 1] + '\n</tr>'
+    for index in range(0, len(cards), 2)
 ]
 
 repo_block = (
     f"{MANAGED_START}\n"
-    + "\n".join(table)
-    + "\n\n"
-    + '<div align="right"><a href="https://github.com/'
-    + f'{OWNER}?tab=repositories">View all repositories →</a></div>\n'
+    + '<details>\n'
+    + '<summary><strong>OPEN SOURCE INDEX</strong> · More experiments and systems</summary>\n'
+    + '<br>\n\n<table>\n'
+    + "\n".join(rows)
+    + '\n</table>\n\n'
+    + '<p align="right"><a href="https://github.com/'
+    + f'{OWNER}?tab=repositories"><img src="./assets/btn-all-repositories.svg" '
+    + 'alt="Explore all repositories" height="34"></a></p>\n'
+    + '</details>\n'
     + f"{MANAGED_END}"
 )
 

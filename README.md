@@ -3,28 +3,50 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-dark.svg" alt="BilaNiumN1 — independent developer building useful digital products" width="100%">
+  <img src="./assets/hero-dark.svg" alt="BilaNiumN1 — independent developer creating useful digital systems" width="100%">
 </picture>
 
 <br>
 
-<p align="center"><a href="https://myportofolio-bila-la.vercel.app"><img src="./assets/cta-portfolio.svg" alt="Explore portfolio" height="36"></a>&nbsp;&nbsp;<a href="https://www.instagram.com/tell.hack/"><img src="./assets/cta-instagram.svg" alt="Open Instagram" height="36"></a></p>
+<a href="https://the-portofolio.vercel.app/"><img src="./assets/cta-portfolio.svg" alt="Explore portfolio" height="38"></a>
+<a href="#selected-work"><img src="./assets/btn-projects.svg" alt="View selected projects" height="34"></a>
+<a href="#core-stack"><img src="./assets/btn-stack.svg" alt="View core stack" height="34"></a>
+<a href="#connect"><img src="./assets/btn-connect.svg" alt="Connect" height="34"></a>
 
 <br><br>
 
-<sub>Independent developer in Lembang, Indonesia &nbsp;·&nbsp; Building practical products for real workflows</sub>
+<samp>just missing someone Favorite ☝️✌️N</samp>
 
 </div>
 
-## About
+## Profile
 
-I design and build **practical web products**—turning everyday problems into clear interfaces, reliable systems, and maintainable code. My work spans document workflows, business operations, automation, and immersive web experiences.
+I’m an independent developer in **Lembang, Indonesia**, designing practical digital products from interface to infrastructure. I work where product thinking, dependable systems, and expressive web experiences meet—turning real workflows into software that feels clear, resilient, and considered.
 
-I care about the details between an idea and a product people can actually use: thoughtful UX, sensible architecture, resilient data flows, and continuous refinement.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-<p align="center">
-  <img src="./assets/flow.svg" alt="Discover, design, build, validate, ship" width="88%">
-</p>
+<strong>FOCUS / 01</strong><br>
+Product engineering and workflow design
+
+</td>
+<td width="33%" valign="top">
+
+<strong>SYSTEM / 02</strong><br>
+Frontend, APIs, data, security, and delivery
+
+</td>
+<td width="33%" valign="top">
+
+<strong>CRAFT / 03</strong><br>
+Accessible interfaces with intentional motion
+
+</td>
+</tr>
+</table>
+
+<p align="center"><sub>DISCOVER&nbsp;&nbsp;→&nbsp;&nbsp;DESIGN&nbsp;&nbsp;→&nbsp;&nbsp;BUILD&nbsp;&nbsp;→&nbsp;&nbsp;VALIDATE&nbsp;&nbsp;→&nbsp;&nbsp;SHIP</sub></p>
 
 ## Selected Work
 
@@ -34,13 +56,13 @@ I care about the details between an idea and a product people can actually use: 
 
 ### SchoolDMS
 
-A connected document-management platform for school workflows, combining a Next.js interface, NestJS API, Prisma data layer, cloud storage, and sync tooling.
+Connected document operations for school workflows—combining a Next.js interface, NestJS API, Prisma data layer, cloud storage, approvals, and synchronization.
 
-`TypeScript` `Next.js` `NestJS` `Prisma` `Supabase`
+<p><a href="https://school-dms.vercel.app/"><img src="./assets/btn-live-demo.svg" alt="Open SchoolDMS live product" height="34"></a>&nbsp;&nbsp;<a href="https://github.com/bilanazhmii/SchoolDMS"><img src="./assets/btn-source.svg" alt="View SchoolDMS source code" height="34"></a></p>
 
-[Live product](https://school-dms.vercel.app/) · [Source code](https://github.com/bilanazhmii/SchoolDMS)
+<sub>TypeScript · Next.js · NestJS · Prisma · Supabase</sub>
 
-<br>
+<br><br>
 
 <a href="https://github.com/bilanazhmii/Our-bisnis">
   <img src="./assets/our-bisnis.svg" alt="Our-bisnis — business operations in one place" width="100%">
@@ -48,21 +70,59 @@ A connected document-management platform for school workflows, combining a Next.
 
 ### Our-bisnis
 
-A PWA for day-to-day business operations: sales, inventory, cash flow, receivables, reports, receipts, roles, and secure cross-device sync.
+An offline-first PWA for sales, inventory, cash flow, receivables, reporting, receipts, roles, and secure cross-device synchronization.
 
-`JavaScript` `Supabase` `PWA` `RLS` `Offline-first`
+<p><a href="https://our-bisnis.vercel.app/"><img src="./assets/btn-live-demo.svg" alt="Open Our-bisnis live product" height="34"></a>&nbsp;&nbsp;<a href="https://github.com/bilanazhmii/Our-bisnis"><img src="./assets/btn-source.svg" alt="View Our-bisnis source code" height="34"></a></p>
 
-[Live product](https://our-bisnis.vercel.app/) · [Source code](https://github.com/bilanazhmii/Our-bisnis)
+<sub>JavaScript · Supabase · PWA · RLS · Offline-first</sub>
 
-## More Work
+<br>
 
 <!-- AUTO-REPOS:START -->
-| Project | What it is | Built with |
-| :-- | :-- | :-- |
-| [**MyPortofolio**](https://github.com/bilanazhmii/MyPortofolio) ↗ | An immersive 3D portfolio with motion, spatial interaction, and a cinematic WebGL experience. [Live ↗](https://myportofolio-bila-la.vercel.app) | `TypeScript` |
-| [**BotIndo**](https://github.com/bilanazhmii/BotIndo) ↗ | A Discord and Minecraft operations bot with RCON, server status, commands, AI utilities, and a web dashboard. | `JavaScript` |
+<details>
+<summary><strong>OPEN SOURCE INDEX</strong> · More experiments and systems</summary>
+<br>
 
-<div align="right"><a href="https://github.com/bilanazhmii?tab=repositories">View all repositories →</a></div>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<strong>Portofolio</strong><br>
+<sub>The current portfolio experience for selected work, capabilities, and an intentionally crafted developer identity.</sub>
+
+<sub>TypeScript</sub>
+
+<br><a href="https://github.com/bilanazhmii/Portofolio"><img src="./assets/btn-view-repo.svg" alt="View Portofolio repository" height="32"></a>&nbsp;<a href="https://the-portofolio.vercel.app"><img src="./assets/btn-live-demo.svg" alt="Open Portofolio live site" height="32"></a>
+
+</td>
+<td width="50%" valign="top">
+
+<strong>MyPortofolio</strong><br>
+<sub>An immersive 3D portfolio with motion, spatial interaction, and a cinematic WebGL experience.</sub>
+
+<sub>TypeScript</sub>
+
+<br><a href="https://github.com/bilanazhmii/MyPortofolio"><img src="./assets/btn-view-repo.svg" alt="View MyPortofolio repository" height="32"></a>&nbsp;<a href="https://myportofolio-bila-la.vercel.app"><img src="./assets/btn-live-demo.svg" alt="Open MyPortofolio live site" height="32"></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<strong>BotIndo</strong><br>
+<sub>A Discord and Minecraft operations bot with RCON, server status, commands, AI utilities, and a web dashboard.</sub>
+
+<sub>JavaScript</sub>
+
+<br><a href="https://github.com/bilanazhmii/BotIndo"><img src="./assets/btn-view-repo.svg" alt="View BotIndo repository" height="32"></a>
+
+</td>
+<td width="50%"></td>
+</tr>
+</table>
+
+<p align="right"><a href="https://github.com/bilanazhmii?tab=repositories"><img src="./assets/btn-all-repositories.svg" alt="Explore all repositories" height="34"></a></p>
+</details>
 <!-- AUTO-REPOS:END -->
 
 ## How I Build
@@ -71,23 +131,23 @@ A PWA for day-to-day business operations: sales, inventory, cash flow, receivabl
 <tr>
 <td width="33%" valign="top">
 
-**01 / Product clarity**
+**01 / Clarify**
 
-Start with the real workflow, then remove friction until the experience feels obvious.
-
-</td>
-<td width="33%" valign="top">
-
-**02 / System thinking**
-
-Connect interface, API, data, security, and deployment as one coherent product.
+Understand the real workflow and remove friction before adding features.
 
 </td>
 <td width="33%" valign="top">
 
-**03 / Iterative craft**
+**02 / Connect**
 
-Ship, observe, refine, and keep the implementation as intentional as the design.
+Treat interface, API, data, security, and deployment as one product system.
+
+</td>
+<td width="33%" valign="top">
+
+**03 / Refine**
+
+Ship, observe, and improve until the experience and implementation feel intentional.
 
 </td>
 </tr>
@@ -97,39 +157,26 @@ Ship, observe, refine, and keep the implementation as intentional as the design.
 
 <div align="center">
 
-<img src="./assets/stack.svg" alt="TypeScript, JavaScript, React, Next.js, Node.js, NestJS, Supabase, PostgreSQL, Three.js, Docker, Git, GitHub, and Vercel" width="94%">
+<img src="./assets/stack.svg" alt="TypeScript, React, Next.js, Node.js, NestJS, Supabase, PostgreSQL, Three.js, Docker, Git, GitHub, and Vercel" width="96%">
 
 <br><br>
 
-<sub>Product engineering &nbsp;·&nbsp; Frontend systems &nbsp;·&nbsp; Backend APIs &nbsp;·&nbsp; Data workflows &nbsp;·&nbsp; Deployment</sub>
+<sub>Currently exploring stronger architecture, accessible interaction, immersive interfaces, and secure automation.</sub>
 
 </div>
-
-## Development Activity
-
-<div align="center">
-
-<a href="https://github.com/bilanazhmii">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bilanazhmii&bg_color=00000000&color=94A3B8&line=6366F1&point=22D3EE&area=true&area_color=6366F1&hide_border=true&custom_title=Contribution%20Flow" alt="BilaNiumN1 contribution activity" width="96%">
-</a>
-
-</div>
-
-## Current Direction
-
-- Building web products with stronger architecture, accessibility, and product polish.
-- Exploring immersive interfaces through React, Three.js, and motion systems.
-- Improving automation and secure cloud workflows for real operational needs.
 
 ## Connect
 
 <div align="center">
 
-If you are building something useful, have an interesting technical problem, or want to exchange ideas, feel free to reach out.
+For thoughtful products, unusual technical problems, or a good exchange of ideas.
 
-<br>
+<br><br>
 
-[**Portfolio**](https://myportofolio-bila-la.vercel.app) &nbsp;·&nbsp; [**GitHub**](https://github.com/bilanazhmii) &nbsp;·&nbsp; [**Instagram**](https://www.instagram.com/tell.hack/) &nbsp;·&nbsp; [**ORCID**](https://orcid.org/0009-0004-5857-3394)
+<a href="https://the-portofolio.vercel.app/"><img src="./assets/cta-portfolio.svg" alt="Explore portfolio" height="38"></a>
+<a href="https://github.com/bilanazhmii?tab=repositories"><img src="./assets/btn-github.svg" alt="Explore GitHub repositories" height="34"></a>
+<a href="https://www.instagram.com/tell.hack/"><img src="./assets/btn-instagram.svg" alt="Open Instagram profile" height="34"></a>
+<a href="https://orcid.org/0009-0004-5857-3394"><img src="./assets/btn-orcid.svg" alt="Open ORCID profile" height="34"></a>
 
 <br><br>
 

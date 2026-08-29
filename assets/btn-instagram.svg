@@ -8,6 +8,6 @@
   </defs>
   <rect x="1" y="1" width="152" height="32" rx="17" fill="#0D1320" stroke="#2A3346"/>
   <rect x="2" y="2" width="150" height="30" rx="16" fill="url(#g)" opacity="0.16"/>
-  <circle cx="18" cy="17" r="4" fill="#EC4899" opacity="0.95"/>
+  <g fill="none" stroke="#F9A8D4" stroke-width="1.5"><rect x="10" y="9" width="16" height="16" rx="5"/><circle cx="18" cy="17" r="3.5"/><circle cx="23" cy="12" r=".8" fill="#F9A8D4"/></g>
   <text x="85" y="22" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">INSTAGRAM ↗</text>
 </svg>

@@ -8,6 +8,6 @@
   </defs>
   <rect x="1" y="1" width="130" height="32" rx="17" fill="#0D1320" stroke="#2A3346"/>
   <rect x="2" y="2" width="128" height="30" rx="16" fill="url(#g)" opacity="0.16"/>
-  <circle cx="18" cy="17" r="4" fill="#84CC16" opacity="0.95"/>
+  <g><circle cx="18" cy="17" r="8" fill="none" stroke="#A3E635" stroke-width="1.5"/><circle cx="15" cy="13" r="1.2" fill="#D9F99D"/><path d="M14 16v6M18 16v6M18 16h2a3 3 0 0 1 0 6h-2" fill="none" stroke="#D9F99D" stroke-width="1.3"/></g>
   <text x="74" y="22" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">ORCID ↗</text>
 </svg>

@@ -8,6 +8,6 @@
   </defs>
   <rect x="1" y="1" width="148" height="32" rx="17" fill="#0D1320" stroke="#2A3346"/>
   <rect x="2" y="2" width="146" height="30" rx="16" fill="url(#g)" opacity="0.16"/>
-  <circle cx="18" cy="17" r="4" fill="#8B5CF6" opacity="0.95"/>
+  <g fill="none" stroke="#C4B5FD" stroke-width="1.5" stroke-linejoin="round"><path d="M10 12h7l2 2h7v10H10z"/><path d="M10 12v-2h7l2 2"/></g>
   <text x="83" y="22" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">VIEW REPO ↗</text>
 </svg>

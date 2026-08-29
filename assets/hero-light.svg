@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">BilaNiumN1 — Design, build, ship</title>
-  <desc id="desc">A refined developer profile banner with a technical grid, luminous arcs, and a BN monogram.</desc>
+  <title id="title">BilaNiumN1 — Useful systems, beautifully engineered</title>
+  <desc id="desc">An editorial developer banner with a technical grid, luminous orbital paths, and a BN monogram.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#FFFFFF"/><stop offset=".58" stop-color="#F8FAFC"/><stop offset="1" stop-color="#EEF2FF"/>
@@ -20,20 +20,21 @@
   <rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="#CBD5E1"/>
   <rect x="24" y="24" width="1152" height="382" rx="18" fill="url(#grid)"/>
   <circle cx="1005" cy="210" r="200" fill="url(#halo)" filter="url(#blur)"/>
-  <path d="M807 325C856 247 870 113 1000 91c116-20 170 74 157 159-12 78-83 131-158 126-99-6-160-86-146-178 12-78 79-132 157-126 55 4 103 33 127 77" fill="none" stroke="url(#accent)" stroke-width="1.6" stroke-linecap="round" opacity=".72"/>
+  <path id="orbit" d="M807 325C856 247 870 113 1000 91c116-20 170 74 157 159-12 78-83 131-158 126-99-6-160-86-146-178 12-78 79-132 157-126 55 4 103 33 127 77" fill="none" stroke="url(#accent)" stroke-width="1.6" stroke-linecap="round" opacity=".72"/>
+  <circle r="3.5" fill="#0F172A"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#orbit"/></animateMotion></circle>
   <circle cx="1137" cy="149" r="4" fill="#0891B2"><animate attributeName="opacity" values=".35;1;.35" dur="3.2s" repeatCount="indefinite"/></circle>
   <circle cx="855" cy="198" r="3" fill="#4F46E5"><animate attributeName="opacity" values="1;.25;1" dur="4s" repeatCount="indefinite"/></circle>
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
     <circle cx="65" cy="62" r="4" fill="#059669"/>
-    <text x="80" y="68" fill="#64748B" font-size="13" font-weight="600" letter-spacing="2.2">AVAILABLE FOR IDEAS &amp; COLLABORATION</text>
-    <text x="66" y="158" fill="#64748B" font-size="14" font-weight="600" letter-spacing="5">INDEPENDENT DEVELOPER</text>
+    <text x="80" y="68" fill="#64748B" font-size="13" font-weight="600" letter-spacing="2.2">INDEPENDENT DEVELOPER · LEMBANG, INDONESIA</text>
+    <text x="66" y="158" fill="#64748B" font-size="14" font-weight="600" letter-spacing="5">PRODUCT / SYSTEM / EXPERIENCE</text>
     <text x="62" y="226" fill="#0F172A" font-size="62" font-weight="800" letter-spacing="-2.7">BilaNiumN1</text>
     <rect x="65" y="249" width="94" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="65" y="293" fill="#334155" font-size="23" font-weight="500">Design. Build. Ship.</text>
-    <text x="65" y="330" fill="#64748B" font-size="16">Practical software, thoughtful systems, continuous refinement.</text>
-    <text x="66" y="376" fill="#64748B" font-size="12" font-weight="600" letter-spacing="2.4">LEMBANG, INDONESIA  /  06.81° S · 107.62° E</text>
+    <text x="65" y="293" fill="#334155" font-size="23" font-weight="500">Useful systems, beautifully engineered.</text>
+    <text x="65" y="330" fill="#64748B" font-size="16">Clear interfaces · resilient architecture · intentional motion</text>
+    <text x="66" y="376" fill="#64748B" font-size="12" font-weight="600" letter-spacing="2.1">DISCOVER  /  DESIGN  /  BUILD  /  VALIDATE  /  SHIP</text>
     <text x="1007" y="229" fill="#0F172A" font-size="70" font-weight="800" text-anchor="middle" letter-spacing="-5">BN</text>
-    <text x="1007" y="258" fill="#64748B" font-size="12" text-anchor="middle" letter-spacing="4">BUILD / 01</text>
-    <text x="1134" y="385" fill="#64748B" font-size="11" text-anchor="end" letter-spacing="2">PROFILE / LIVE</text>
+    <text x="1007" y="258" fill="#64748B" font-size="12" text-anchor="middle" letter-spacing="4">SIGNAL / 01</text>
+    <text x="1134" y="385" fill="#64748B" font-size="11" text-anchor="end" letter-spacing="2">PROFILE / 2026</text>
   </g>
 </svg>
