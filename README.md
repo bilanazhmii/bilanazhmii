@@ -87,6 +87,16 @@ An offline-first PWA for sales, inventory, cash flow, receivables, reporting, re
 <tr>
 <td width="50%" valign="top">
 
+<strong>9router</strong><br>
+<sub>A software project from my public workspace.</sub>
+
+<sub>Open Source</sub>
+
+<br><a href="https://github.com/bilanazhmii/9router"><img src="./assets/btn-view-repo.svg" alt="View 9router repository" height="32"></a>
+
+</td>
+<td width="50%" valign="top">
+
 <strong>Portofolio</strong><br>
 <sub>The current portfolio experience for selected work, capabilities, and an intentionally crafted developer identity.</sub>
 
@@ -95,6 +105,8 @@ An offline-first PWA for sales, inventory, cash flow, receivables, reporting, re
 <br><a href="https://github.com/bilanazhmii/Portofolio"><img src="./assets/btn-view-repo.svg" alt="View Portofolio repository" height="32"></a>&nbsp;<a href="https://the-portofolio.vercel.app"><img src="./assets/btn-live-demo.svg" alt="Open Portofolio live site" height="32"></a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <strong>MyPortofolio</strong><br>
@@ -105,8 +117,6 @@ An offline-first PWA for sales, inventory, cash flow, receivables, reporting, re
 <br><a href="https://github.com/bilanazhmii/MyPortofolio"><img src="./assets/btn-view-repo.svg" alt="View MyPortofolio repository" height="32"></a>&nbsp;<a href="https://myportofolio-bila-la.vercel.app"><img src="./assets/btn-live-demo.svg" alt="Open MyPortofolio live site" height="32"></a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <strong>BotIndo</strong><br>
@@ -117,7 +127,6 @@ An offline-first PWA for sales, inventory, cash flow, receivables, reporting, re
 <br><a href="https://github.com/bilanazhmii/BotIndo"><img src="./assets/btn-view-repo.svg" alt="View BotIndo repository" height="32"></a>
 
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
